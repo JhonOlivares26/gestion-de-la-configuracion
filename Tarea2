@@ -1,0 +1,39 @@
+--------------------------------------------------------Estrategias de despliegue de software-------------------------------------------------------------------
+Existen varias estrategias de despliegue de software que las organizaciones pueden utilizar para implementar nuevas versiones de aplicaciones o sistemas de manera eficiente y sin interrupciones significativas para los usuarios. Estas estrategias varían en función de la complejidad del software, los objetivos de negocio y las preferencias del equipo de desarrollo. Algunas de las estrategias más comunes son:
+
+-Despliegue en un solo paso (Big Bang): Esta estrategia implica lanzar la nueva versión del software en un solo paso masivo. Aunque puede ser rápido, también es arriesgado, ya que cualquier problema que surja podría afectar a toda la aplicación o sistema de manera inmediata.
+
+-Despliegue gradual (Rolling Deployment): Aquí, la nueva versión se lanza gradualmente en partes del sistema o en segmentos específicos de los usuarios. Esto permite detectar y corregir problemas en etapas tempranas y minimiza el impacto si algo sale mal.
+
+-Despliegue por lotes (Batch Deployment): Se lanza la nueva versión a grupos predefinidos de usuarios en lotes. Esto permite a los equipos de desarrollo y operaciones verificar y ajustar el proceso antes de avanzar al siguiente lote.
+
+-Despliegue por anillo (Ring Deployment): Similar al despliegue gradual, pero se hace en anillos. Cada anillo es un conjunto de usuarios, y la nueva versión se despliega primero en un anillo pequeño antes de avanzar a anillos más grandes.
+
+-Despliegue de canarios (Canary Deployment): Implica lanzar la nueva versión a un pequeño grupo de usuarios ("canarios") antes de implementarla completamente. Si los canarios funcionan bien, se implementa en el resto del sistema.
+
+-Despliegue de prueba (Feature Toggles): Se incluyen nuevas características en la aplicación, pero se mantienen ocultas mediante conmutadores o banderas. Luego, se activan o desactivan según sea necesario.
+
+-Despliegue azul-verde (Blue-Green Deployment): Se mantienen dos entornos idénticos: uno (azul) con la versión actual y otro (verde) con la nueva versión. Se redirige el tráfico del azul al verde cuando se completa la implementación.
+
+-Despliegue de imágenes de contenedor (Container Image Deployment): Utilizado en entornos de contenedorización como Docker, donde se implementan nuevas imágenes de contenedor para actualizar el software.
+
+-Despliegue continuo (Continuous Deployment): Automatiza el proceso de lanzar versiones nuevas en producción tan pronto como se completan y pasan las pruebas. Requiere un alto nivel de automatización y pruebas exhaustivas.
+
+
+
+
+---------------------------------------------------------Cómo ayuda el cmmi a la gestion de la configuracion-------------------------------------------------------
+
+El modelo CMMI (Capability Maturity Model Integration) puede ser una herramienta valiosa en la gestión de la configuración, ya que proporciona un marco de referencia y un conjunto de mejores prácticas para mejorar la madurez y la capacidad de los procesos en una organización. Aunque CMMI no está específicamente diseñado para la gestión de la configuración, sus principios y enfoques pueden aplicarse para mejorar la eficiencia y la efectividad de esta área crítica. Aquí hay algunas formas en las que CMMI puede ayudar en la gestión de la configuración:
+
+-Definición de procesos estándar: CMMI promueve la definición de procesos estándar y documentados en una organización. En el contexto de la gestión de la configuración, esto significa establecer procesos claros y bien definidos para la identificación, el control de cambios, la integración, la liberación y otros aspectos relacionados con la gestión de la configuración.
+
+-Mejora continua: CMMI fomenta la mejora continua de los procesos. En la gestión de la configuración, esto se traduce en la revisión y ajuste regular de los procesos y prácticas para abordar áreas de mejora identificadas y adaptarse a las cambiantes necesidades de la organización.
+
+-Medición y métricas: CMMI promueve la medición y el análisis de los procesos para identificar áreas de oportunidad y tomar decisiones informadas. En la gestión de la configuración, esto puede incluir el seguimiento de métricas relacionadas con el control de cambios, la integración y otros aspectos para evaluar la eficacia de los procesos.
+
+-Gestión de riesgos: CMMI enfatiza la identificación y el manejo de riesgos en los procesos. En la gestión de la configuración, esto significa reconocer los riesgos asociados con cambios no controlados, problemas de integración y otros desafíos, y establecer medidas para mitigarlos.
+
+-Mejora de la comunicación: CMMI destaca la importancia de la comunicación efectiva en los procesos. En la gestión de la configuración, esto implica garantizar que los equipos de desarrollo, operaciones y otros stakeholders estén alineados en cuanto a los cambios, las versiones y otros aspectos críticos.
+
+-Establecimiento de líneas de base (baselines): CMMI alienta el establecimiento de líneas de base para controlar y gestionar los cambios. En la gestión de la configuración, esto significa definir versiones y referencias claves para asegurar que los cambios estén controlados y rastreables.
