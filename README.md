@@ -1,6 +1,6 @@
 # Gestion de la configuracion
 ----
-#Proyecto calculadora
+# Proyecto calculadora
 Aquí tienes el paso a paso que debes seguir para clonar el repositorio de GitHub, así podrás ejecutar y probar la calculadora en tu maquina.
 
 1. Lo primero que debes tener es contar con una version de windows 11 instalada en tu dispositivo.
