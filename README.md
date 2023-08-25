@@ -17,6 +17,8 @@ Ahora vamos a verificar si el paquete Node.js está instalado en nuestro sistema
 
 En caso de que no lo tengas instalado, puedes descargar Node.js desde el sitio oficial: https://nodejs.org/ . Deberás descargar la versión LTS y continuar la instalación. Después de descargarlo e instalarlo, repite los pasos anteriores para verificar que la instalación se haya realizado correctamente.
 
+- Ahora instalaremos el gestor de paquetes de NodeJS llamado npm con el comando `npm install -g npm`
+
 ### Verificacion y/o instalación de git
 
 Vamos a verificar si Git se encuentra instalado en tú máquina al igual que Node.js.
@@ -45,7 +47,9 @@ Vamos a verificar si Git se encuentra instalado en tú máquina al igual que Nod
 ### Moverse de rama
 Ahora lo que debemos hacer es movernos de la rama por defecto "main" a la rama donde está el codigo de la aplicación.
 
-- Ya en la terminal ejecutamos el comando `git checkout Jhon_Leyson_Olivares_Graciano`, 
+-Ya en la terminal nos movemos a la carpeta donde está el codigo fuente con el comando `cd gestion-de-la-configuracion`
+
+- En la misma terminal ejecutamos el comando `git checkout Jhon_Leyson_Olivares_Graciano`, 
 de esta forma ya estaremos en rama que necesitamos. 
 
 > Para verificarlo puedes ejecutar el comando `git branch` y te deberá aparecer   
