@@ -2,6 +2,8 @@
 ## Proyecto gestor de notas
 Aquí tienes el paso a paso que debes seguir para clonar el repositorio de GitHub, instalar las dependencias y construir el build. Adicionalmente tendrás el paso a paso para ejecutar y probar el proyecto en un servidor web.
 
+Puedes ir a la [wiki](https://github.com/JhonOlivares26/gestion-de-la-configuracion/wiki/De-qué-se-trata) para obtener mas Informacion acerca del proyecto
+
 ### Verificación del sistema operativo
 
 Lo primero que debes tener es contar con una version de windows 11 instalada en tu dispositivo.
@@ -69,9 +71,17 @@ ahora lo que haremos será crear nuestro artefacto, para esto utilizaremos el fr
 
 - Ahora ejecutamos `express build --view pug` el cual nos creará una carpeta build con el artefacto.
 
-> Para poder asegurarnos de que la carpeta se creó correctamente podemos listar los elementos de la carpeta, ejecutando el comando `dir`, este lo que hará es listar todo lo que tengamos en esa carpeta. Ahí podremos ver que efectivamente tendremos una carpeta llamada "build" con la fecha y hora de su creación.
+> Para poder asegurarnos de que la carpeta se creó correctamente podemos listar los elementos de la carpeta, ejecutando el comando `dir`, este lo que hará es listar todo lo que tengamos en esa carpeta. Ahí podremos ver que efectivamente tendremos una carpeta llamada "build" con la fecha y hora de su creación, también podemos ir a la carpeta que se creó cuando clonamos nuestro repositorio y ver que ahí se encuentra la carpeta "build".
 
 FIN.
+
+### Ejecución del proyecto (opcional)
+
+Si ya tienes instalado y configurado mongoDB correctamente, puedes ejecutar el proyecto en la terminal en la que te encuentras con el comando `npm run dev` para ejecutarlo en modo desarrollo, y el comando `npm start` para ejecutarlo en modo de producción.
+
+> Los pasos para instalar y configurar mongoDB con el fin de ejecutar nuestro proyecto están en progreso...
+
+
 
 
 
