@@ -1,1 +1,1 @@
-Calculadora cientifica 
+Proyecto: Gestor de notas
